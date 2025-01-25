@@ -65,3 +65,62 @@ footer {
     margin-bottom: 10px;
 }
 
+@media (max-width: 768px) {
+    .profile {
+        margin: 20px;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    h2 {
+        font-size: 14px;
+    }
+
+    .link-list {
+        padding: 10px;
+    }
+
+    .link-list li a {
+        font-size: 14px;
+    }
+
+    .social img {
+        width: 35px;
+    }
+
+    footer {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .profile {
+        margin: 10px;
+    }
+
+    h1 {
+        font-size: 20px;
+    }
+
+    h2 {
+        font-size: 12px;
+    }
+
+    .link-list {
+        padding: 5px;
+    }
+
+    .link-list li a {
+        font-size: 12px;
+    }
+
+    .social img {
+        width: 30px;
+    }
+
+    footer {
+        font-size: 12px;
+    }
+}
